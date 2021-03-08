@@ -3,3 +3,4 @@ This is a website I made for a friend who is going to participate in a selection
 P.S.: 
 The images, links, and texts were modified, to protect her identity;
 The colors and pictures were chosen by her.
+<img src="Imagens/imagem.jpg">
