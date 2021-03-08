@@ -11,5 +11,5 @@ It's a one-page website, with a fixed bar menu and links to her social media.
 ## This is how the sections are
 <img src="Imagens/sobre.jpg">
 
-## This is how the contact area
+## This is the contact area
 <img src="Imagens/contato.jpg">
