@@ -5,5 +5,6 @@ P.S.:
 *The colors and pictures were chosen by her.
 ## This is the first view of the website
 <img src="Imagens/imagem.jpg">
+
 ## This is how the sections are
 <img src="Imagens/sobre.jpg">
