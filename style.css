@@ -1,0 +1,149 @@
+			/*DEFININDO A CONFIG BÁSICA DESSE SITE*/
+			body, html {
+				margin: 0;
+				font: 18px 'Poppins', sans-serif;
+				color: #777;
+				height: 100%;
+			}
+
+			/*EFEITO PARALAX*/
+			/*TODAS AS CLASSES DE CONTEÚDO RECEBEM CONFIGURAÇÕES PARA DEIXAR O BACKGROUND FIXO E COMO EFEITO "INFINITO"*/
+			.caixa1, .caixa2, .caixa3, .caixa4,.caixa5{
+				height: 100%;
+				opacity: 0.7;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed; 
+			}
+
+			/*MENU*/
+			.navbar {
+				height: 60px;
+				overflow: hidden;
+				background-color: #8566B2 ;  
+				top: 0;
+				z-index: 100;
+				position: fixed;
+				width: 100%;
+			}
+
+			/*LINKS DO MENU*/
+			.navbar a {
+				float: left;
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 20px;
+				text-decoration: none;
+				font-weight: 425;
+			}
+
+			.navbar a:hover {
+				color: #1D0F4A;
+				background-color: #E3D2F2;
+				opacity: 0.8;
+			}
+			
+			/*FOTO*/
+			.avatar {
+				vertical-align: middle;
+				width: 300px;
+				height: 300px;
+				border-radius: 50%;
+				box-shadow: 0 0 15px black;				
+				
+			}
+
+			/*POSICIONAMENTO DO HEADER*/
+			.header {
+				position: absolute;
+				top: 30%;
+				left: 0;
+				width: 100%;
+				text-align: center;
+			}
+
+			/*CONFIGURAÇÕES DAS ÁREAS DE TÍTULO DOS CONTEÚDOS*/
+			.conteudo {
+				padding: 50px 80px;
+				background-color:#C1A5D2; 
+				height: 80px;
+				opacity: 0.8;
+			}
+			.conteudo h1{
+				text-decoration: none;
+				color: #1D0F4A;
+				text-align: center;
+				top: 20%;
+				font-size: 50px;
+				font-family: 'Poppins', sans-serif;
+				font-weight: 600;
+			}
+
+			/*CONFIGURAÇÕES DAS CAIXAS QUE COMPORTAM OS CONTEÚDOS*/
+			.textos{
+				height: 425px;
+				width: 900px;
+				background-color: #E3D2F2 ; 
+				padding: 20px;
+				margin-left: 16%;
+				margin-top: 5%;
+				float: left;
+				
+			}
+			/*CONFIGURAÇÃO DOS TEXTOS*/
+			.textos p {
+
+				font-size: 30px;
+				font-family: 'Poppins', sans-serif;
+				text-align: justify;
+				font-weight: 300px;
+				color: #230326;
+				padding: 10px;
+				text-indent: 2em;
+				margin: 8px;
+
+			}
+
+			/*CONFIGURAÇÕES DO RODAPÉ*/
+			.footer {
+				padding: 20px;
+				text-align: center;
+				background: rgb(238, 225, 235);
+			}
+
+			/* Ícones */
+			.fa {
+				padding: 5px;
+				font-size: 30px;
+				width: 30px;
+				text-align: center;
+				text-decoration: none;
+				border-radius: 50%;
+			}
+
+			/* Efeito dos ícones */
+			.fa:hover {
+				opacity: 0.7;
+			}
+
+			/* Cor dos ícones */
+
+			/* Facebook */
+			.fa-facebook {
+				background: #faf8f8;
+				color: rgb(10, 10, 10);
+			}
+
+			/* Google */
+			.fa-google {
+				background: #faf8f8;
+				color: rgb(10, 10, 10);
+			}
+
+			/* Instagram */
+			.fa-instagram {
+				background: #faf8f8;
+				color: rgb(10, 10, 10);
+			}
