@@ -4,6 +4,7 @@
 				font: 18px 'Poppins', sans-serif;
 				color: #777;
 				height: 100%;
+				scroll-behavior: smooth;
 			}
 
 			/*EFEITO PARALAX*/
